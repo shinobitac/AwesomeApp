@@ -10,10 +10,12 @@
 		5912A5B91ADF3EC900638A30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5912A5B81ADF3EC900638A30 /* main.m */; };
 		5912A5BC1ADF3EC900638A30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5912A5BB1ADF3EC900638A30 /* AppDelegate.m */; };
 		5912A5BF1ADF3EC900638A30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5912A5BE1ADF3EC900638A30 /* ViewController.m */; };
-		5912A5C21ADF3EC900638A30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5912A5C01ADF3EC900638A30 /* Main.storyboard */; };
 		5912A5C41ADF3EC900638A30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5912A5C31ADF3EC900638A30 /* Images.xcassets */; };
 		5912A5C71ADF3EC900638A30 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5912A5C51ADF3EC900638A30 /* LaunchScreen.xib */; };
 		5912A5D31ADF3EC900638A30 /* AWSAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5912A5D21ADF3EC900638A30 /* AWSAppTests.m */; };
+		5912A5DE1ADF4A5000638A30 /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5912A5DD1ADF4A5000638A30 /* DashboardViewController.m */; };
+		59B66E0A1AE8878A0038806B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59B66E071AE8878A0038806B /* Main.storyboard */; };
+		59EE76AC1AE879B6000EB127 /* MapaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EE76AB1AE879B6000EB127 /* MapaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +36,16 @@
 		5912A5BB1ADF3EC900638A30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5912A5BD1ADF3EC900638A30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5912A5BE1ADF3EC900638A30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5912A5C11ADF3EC900638A30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5912A5C31ADF3EC900638A30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5912A5C61ADF3EC900638A30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5912A5CC1ADF3EC900638A30 /* AWSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5912A5D11ADF3EC900638A30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5912A5D21ADF3EC900638A30 /* AWSAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWSAppTests.m; sourceTree = "<group>"; };
+		5912A5DC1ADF4A5000638A30 /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		5912A5DD1ADF4A5000638A30 /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
+		59B66E081AE8878A0038806B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		59EE76AA1AE879B6000EB127 /* MapaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapaViewController.h; sourceTree = "<group>"; };
+		59EE76AB1AE879B6000EB127 /* MapaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +91,14 @@
 				5912A5BB1ADF3EC900638A30 /* AppDelegate.m */,
 				5912A5BD1ADF3EC900638A30 /* ViewController.h */,
 				5912A5BE1ADF3EC900638A30 /* ViewController.m */,
-				5912A5C01ADF3EC900638A30 /* Main.storyboard */,
+				59B66E071AE8878A0038806B /* Main.storyboard */,
 				5912A5C31ADF3EC900638A30 /* Images.xcassets */,
 				5912A5C51ADF3EC900638A30 /* LaunchScreen.xib */,
 				5912A5B61ADF3EC900638A30 /* Supporting Files */,
+				5912A5DC1ADF4A5000638A30 /* DashboardViewController.h */,
+				5912A5DD1ADF4A5000638A30 /* DashboardViewController.m */,
+				59EE76AA1AE879B6000EB127 /* MapaViewController.h */,
+				59EE76AB1AE879B6000EB127 /* MapaViewController.m */,
 			);
 			path = AWSApp;
 			sourceTree = "<group>";
@@ -199,9 +209,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5912A5C21ADF3EC900638A30 /* Main.storyboard in Resources */,
 				5912A5C71ADF3EC900638A30 /* LaunchScreen.xib in Resources */,
 				5912A5C41ADF3EC900638A30 /* Images.xcassets in Resources */,
+				59B66E0A1AE8878A0038806B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +230,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5912A5BF1ADF3EC900638A30 /* ViewController.m in Sources */,
+				59EE76AC1AE879B6000EB127 /* MapaViewController.m in Sources */,
 				5912A5BC1ADF3EC900638A30 /* AppDelegate.m in Sources */,
 				5912A5B91ADF3EC900638A30 /* main.m in Sources */,
+				5912A5DE1ADF4A5000638A30 /* DashboardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,20 +256,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5912A5C01ADF3EC900638A30 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5912A5C11ADF3EC900638A30 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5912A5C51ADF3EC900638A30 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5912A5C61ADF3EC900638A30 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		59B66E071AE8878A0038806B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59B66E081AE8878A0038806B /* Base */,
+			);
+			name = Main.storyboard;
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -346,6 +359,7 @@
 				INFOPLIST_FILE = AWSApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -356,6 +370,7 @@
 				INFOPLIST_FILE = AWSApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -412,6 +427,7 @@
 				5912A5D81ADF3EC900638A30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5912A5D91ADF3EC900638A30 /* Build configuration list for PBXNativeTarget "AWSAppTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +436,7 @@
 				5912A5DB1ADF3EC900638A30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
